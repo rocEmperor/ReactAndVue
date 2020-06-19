@@ -1,0 +1,4 @@
+#vue-App{color:#000}
+.a-bout{color:brown}.a-bout .icon{display:inline-block;height:300px;width:300px;border-radius:50%;background:url(../images/service_share.jpg) no-repeat;background-size:100% 100%}.a-bout .btn{cursor:pointer;color:#8a2be2;margin-top:10px}
+.Inbox{color:#8a2be2;font-size:50px}.Inbox .icon{display:inline-block;height:300px;width:300px;border-radius:50%;background:url(../images/service_share.jpg) no-repeat;background-size:100% 100%}
+.Message{color:#8a2be2}.Message .icon{display:inline-block;height:300px;width:300px;border-radius:50%;background:url(../images/service_share.jpg) no-repeat;background-size:100% 100%}

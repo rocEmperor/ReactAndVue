@@ -1,0 +1,11 @@
+.Message {
+    color: blueviolet;
+    .icon {
+        display: inline-block;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background: url('../../../../static/imgs/service_share.jpg') no-repeat;
+        background-size: 100% 100%;
+    }
+}

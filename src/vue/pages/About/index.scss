@@ -1,0 +1,16 @@
+.a-bout {
+    color: brown;
+    .icon {
+        display: inline-block;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background: url('../../../../static/imgs/service_share.jpg') no-repeat;
+        background-size: 100% 100%;
+    }
+    .btn {
+        cursor: pointer;
+        color: blueviolet;
+        margin-top: 10px;
+    }
+}

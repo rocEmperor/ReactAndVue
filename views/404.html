@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面没找到</title>
+    <style>
+        .container {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: #F7F7F7;
+            text-align: center;
+        }
+        .layout {
+            position: absolute;
+            top: 14%;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        .status {
+            font-size: 100px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .hint {
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        .bottom {
+            display: inline-block;
+            height: 140px;
+            width: 100%;
+            background: url('../static/imgs/a.jpg') no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="layout">
+            <div class="status">404</div>
+            <div class="hint">
+                我们这是一个react和vue共存的项目，所以，对路由做了严格的区分。在react中开发需要"/react"前缀，在vue项目中开发则
+                需要"/vue"前缀，其余的路由定义，我们判定为404，请在定义路由时注意此规则
+            </div>
+            <div class="bottom">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
